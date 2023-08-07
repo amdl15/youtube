@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icononav{
+    width: 25px;
+    
+}
+
+#logo{
+    width: 150px;
+    position: relative;
+    left: 50px;
+    z-index: 1;
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    height: 130x;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#div3{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+nav #div2 input{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(179, 176, 176);
+    width: 500px;
+    height: 35px;
+    
+
+}
+nav #div2{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+
+}
+#micro{
+    width: 35px;
+    border-radius: 60%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(235, 229, 229)  ;
+    background-color:rgb(235, 229, 229) ;
+    position: relative;
+    right: 40px;
+}
+#lupa{
+    width: 25px;
+    position: relative;
+    right: 50px;
+}
+
+ 
+ main{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap:20px;
+   
+   
+
+ }
+ main aside{
+    display:relative;
+ }
+
+/*main aside #div4 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+    list-style: none;
+    
+}*/
+main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+ 
+}
+main section #art1{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+main section #art1 .botones{
+    width: auto;
+    height:30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(235, 229, 229) ;
+    color: black;
+    border-style: none;
+    
+}
+
+main section #art2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    padding-left: 40px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+main section #art2 .contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+main section #art2 p {
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    padding: 5px 0 5px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+}
+main section #art2 .contenedor p:last-of-type{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 29, 29);
+    margin-bottom: 0;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+main section #art2 .video {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+main nav{
+    position: relative;
+}
+.iconoaside{
+    
+    width: 20px;
+}
+
+main aside #div4 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-top: 20px;
+    gap: 10px;
+    position: absolute;
+    z-index:1;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+main aside #div5 {
+    
+    height: auto;
+    width: 110px;
+    position: absolute;
+    z-index: 2;
+    display: none;  
+    background-color: rgb(0, 0, 0);
+
+    
+}
+#selector {
+   width: 20px;
+   height: 30px;
+   position: absolute;
+   top: 0;
+   margin-top: 10px;
+   left: 10px;
+  color: antiquewhite;
+  cursor: pointer;
+  display: none;
+
+    }
+label {
+   
+    position: absolute;
+    left: 10px;
+    top: 0;
+    margin-top: 9px;
+    z-index:1 ;
+    width:40px
+}
+    
+#selector:checked ~ main aside #div5{
+    display:flex;
+    
+}
+/*#selector:checked ~ main aside #div4{ revisar
+    display:none;
+    
+}*/
+#selector:checked ~ main section article{
+    position: relative;
+    left: 100px;
+}
+main aside #div5 ul li a {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 5px;
+    margin-left:10px;
+   
+    
+ }
+
+ main aside #div5 ul li a p{
+  background-color: rgb(218, 215, 221);
+  width: 110px;
+
+    
+ }
+ .iconoaside5{
+    width: 20px;
+    background-color: rgb(207, 218, 207);
+ }
+ 
+    
+
+
+
+
+
+  
+
